@@ -1,0 +1,307 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	default_repeatable_quest: true
+	filename: "guidebooks"
+	group: "26AE2B1EC329514D"
+	id: "22C72D0EBDBE5749"
+	images: [{
+		click: "https://pundah.github.io/Wakerife-Guidebook/"
+		height: 1.0d
+		hover: ["Check out our Guidebook!"]
+		image: "minecraft:item/written_book"
+		rotation: 0.0d
+		width: 1.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "modern_industrialization:guidebook"
+			}
+			id: "5AAB8D1F04D1E9B1"
+			rewards: [{
+				id: "1E8793D06A79CD7D"
+				item: {
+					count: 1
+					id: "modern_industrialization:guidebook"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "67BC7A8302171FC0"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "integrateddynamics:on_the_dynamics_of_integration"
+			}
+			id: "15DE366386758DBC"
+			rewards: [{
+				id: "621DE86225F3625D"
+				item: {
+					count: 1
+					id: "integrateddynamics:on_the_dynamics_of_integration"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5BE8E50765D48B29"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"modonomicon:book_id": "theurgy:the_hermetica"
+				}
+				id: "modonomicon:modonomicon"
+			}
+			id: "264EA052C9FF6122"
+			rewards: [{
+				id: "7E9063042D22B670"
+				item: {
+					components: {
+						"modonomicon:book_id": "theurgy:the_hermetica"
+					}
+					count: 1
+					id: "modonomicon:modonomicon"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E1A212E06B7FE89"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"patchouli:book": "buildinggadgets2:buildinggadgets2book"
+				}
+				id: "patchouli:guide_book"
+			}
+			id: "5BC3C7B5E8E06B1A"
+			rewards: [{
+				id: "762716993DD2A67B"
+				item: {
+					components: {
+						"patchouli:book": "buildinggadgets2:buildinggadgets2book"
+					}
+					count: 1
+					id: "patchouli:guide_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "044842F4DC8E0A36"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "cookingforblockheads:recipe_book"
+			}
+			id: "7404465D773FB8CC"
+			rewards: [{
+				id: "0D86DC232B579A3A"
+				item: {
+					count: 1
+					id: "cookingforblockheads:recipe_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B8CFF353A0F2A98"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "cookingforblockheads:crafting_book"
+			}
+			id: "40ADBA4627772E41"
+			rewards: [{
+				id: "406DDA7AE6C7E436"
+				item: {
+					count: 1
+					id: "cookingforblockheads:crafting_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F0BBA605BA63F90"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				components: {
+					"patchouli:book": "modularrouters:book"
+				}
+				id: "patchouli:guide_book"
+			}
+			id: "427E7F3BF0A58706"
+			rewards: [{
+				id: "235EE3DCAAD6205C"
+				item: {
+					components: {
+						"patchouli:book": "modularrouters:book"
+					}
+					count: 1
+					id: "patchouli:guide_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2BCAFE79663FC1EB"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"patchouli:book": "laserio:laseriobook"
+				}
+				id: "patchouli:guide_book"
+			}
+			id: "24E2999493B9F6D6"
+			rewards: [{
+				id: "003C6D6641540ED5"
+				item: {
+					components: {
+						"patchouli:book": "laserio:laseriobook"
+					}
+					count: 1
+					id: "patchouli:guide_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A6D97E9D0CD0F95"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"modonomicon:book_id": "occultism:dictionary_of_spirits"
+				}
+				id: "occultism:dictionary_of_spirits"
+			}
+			id: "5D80A73839A30F2A"
+			rewards: [{
+				id: "24F59B8B1C012150"
+				item: {
+					components: {
+						"modonomicon:book_id": "occultism:dictionary_of_spirits"
+					}
+					count: 1
+					id: "occultism:dictionary_of_spirits"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "59D5AFE8A404E0F1"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"patchouli:book": "productivebees:guide"
+				}
+				id: "patchouli:guide_book"
+			}
+			id: "17BE6F621E23A645"
+			rewards: [{
+				id: "5D008148F0F8FBD5"
+				item: {
+					components: {
+						"patchouli:book": "productivebees:guide"
+					}
+					count: 1
+					id: "patchouli:guide_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "17D3DB9C5CF129F8"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "securitycraft:sc_manual"
+			}
+			id: "69BDB1C7F5A9AC94"
+			rewards: [{
+				id: "2F9BF7FFD26EEB4E"
+				item: {
+					count: 1
+					id: "securitycraft:sc_manual"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "326B68182FE0A165"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"patchouli:book": "productivetrees:guide"
+				}
+				id: "patchouli:guide_book"
+			}
+			id: "79BBF2AE0D62B31A"
+			rewards: [{
+				id: "70FC72A6946D5F46"
+				item: {
+					components: {
+						"patchouli:book": "productivetrees:guide"
+					}
+					count: 1
+					id: "patchouli:guide_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7886A8F22911FC0B"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+	]
+}

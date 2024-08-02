@@ -1,0 +1,310 @@
+[general]
+	#The Application ID of the Discord App to use. Replace this with your client id from the discord dashboard to change the name of the app
+	applicationID = 1266272280757927979
+	#Enable/Disable the mod
+	enabled = true
+	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
+	debugging = false
+	#Enable/Disable the in game config screen. ONLY AVAILABLE WHEN CLOTH CONFIG IS INSTALLED!
+	configScreen = false
+	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
+	launcherIntegration = false
+	#Internal Version Number. NO TOUCHY!
+	version = 18
+
+[init]
+	#Enable/Disable the Game Loading Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Project Wakerife is loading"
+	#The second line of text under the app name
+	state = "Game Starting..."
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["magitech"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord 
+
+	[[init.buttons]]
+		label = "Join our Discord!"
+		url = "https://discord.gg/M4HQTQ9g9f"
+
+	[[init.buttons]]
+		label = "Download on Curse!"
+		url = "https://www.curseforge.com/minecraft/modpacks/project-wakerife"
+
+
+[main_menu]
+	#Enable/Disable the Main Menu Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Currently playing Project Wakerife."
+	#The second line of text under the app name
+	state = "Chilling in the menu"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["magitech"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["%playerhead%"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord 
+
+	[[main_menu.buttons]]
+		label = "Join our Discord!"
+		url = "https://discord.gg/M4HQTQ9g9f"
+
+	[[main_menu.buttons]]
+		label = "Download on Curse!"
+		url = "https://www.curseforge.com/minecraft/modpacks/project-wakerife"
+
+
+[server_list]
+	#Enable/Disable the Server List Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% is looking for a server"
+	#The second line of text under the app name
+	state = "Searching for friends"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["magitech"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord 
+
+	[[server_list.buttons]]
+		label = "Join our Discord!"
+		url = "https://discord.gg/M4HQTQ9g9f"
+
+	[[server_list.buttons]]
+		label = "Download on Curse!"
+		url = "https://www.curseforge.com/minecraft/modpacks/project-wakerife"
+
+
+[realms_list]
+	#Enable/Disable the Realms Screen Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%playerhead%%player% is looking for a Realm"
+	#The second line of text under the app name
+	state = "Browsing Realms"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["magitech"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord 
+
+	[[realms_list.buttons]]
+		label = "Join our Discord!"
+		url = "https://discord.gg/M4HQTQ9g9f"
+
+	[[realms_list.buttons]]
+		label = "Download on Curse!"
+		url = "https://www.curseforge.com/minecraft/modpacks/project-wakerife"
+
+
+[join_game]
+	#Enable/Disable the Join Game Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%playerhead%%player% is joining a game"
+	#The second line of text under the app name
+	state = "Joining Game"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["magitech"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord 
+
+	[[join_game.buttons]]
+		label = "Join our Discord!"
+		url = "https://discord.gg/M4HQTQ9g9f"
+
+	[[join_game.buttons]]
+		label = "Download on Curse!"
+		url = "https://www.curseforge.com/minecraft/modpacks/project-wakerife"
+
+
+[single_player]
+	#Enable/Disable the Single Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%playerhead% Currently In %world%"
+	#The second line of text under the app name
+	state = "Playing lonely mode"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["magitech"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord 
+
+	[[single_player.buttons]]
+		label = "Join our Discord!"
+		url = "https://discord.gg/M4HQTQ9g9f"
+
+	[[single_player.buttons]]
+		label = "Download on Curse!"
+		url = "https://www.curseforge.com/minecraft/modpacks/project-wakerife"
+
+
+[multi_player]
+	#Enable/Disable the Multi Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%playerhead% Playing on %servername% with %players% players"
+	#The second line of text under the app name
+	state = "Playing online"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["magitech"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord 
+
+	[[multi_player.buttons]]
+		label = "Join our Discord!"
+		url = "https://discord.gg/M4HQTQ9g9f"
+
+	[[multi_player.buttons]]
+		label = "Download on Curse!"
+		url = "https://www.curseforge.com/minecraft/modpacks/project-wakerife"
+
+
+[realms]
+	#Enable/Disable the Realms Game Event
+	enabled = false
+	#The first line of text under the app name
+	description = "%playerhead% Playing on %realmname%"
+	#The second line of text under the app name
+	state = "Playing on a Realm"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["magitech"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%realmdescription%"
+	#The buttons to display on Discord 
+
+	[[realms.buttons]]
+		label = "Join our Discord!"
+		url = "https://discord.gg/M4HQTQ9g9f"
+
+	[[realms.buttons]]
+		label = "Download on Curse!"
+		url = "https://www.curseforge.com/minecraft/modpacks/project-wakerife"
+
+
+[generic]
+	#The first line of text under the app name
+	description = "Playing Project Wakerife"
+	#The second line of text under the app name
+	state = "Join the official Discord!"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["magitech"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord 
+
+	[[generic.buttons]]
+		label = "Join our Discord!"
+		url = "https://discord.gg/M4HQTQ9g9f"
+
+	[[generic.buttons]]
+		label = "Download on Curse!"
+		url = "https://www.curseforge.com/minecraft/modpacks/project-wakerife"
+
+
+[custom]
+	#Must these variables be parsed along with other variables
+	enabled = true
+	#Your custom variables to add
+	variables = []
+
+[dimension_overrides]
+	enabled = true
+
+	[[dimension_overrides.dimensions]]
+		name = "overworld"
+		description = "%player% is in The Overworld"
+		state = ""
+		largeImageKey = ["overworld"]
+		largeImageText = "In the Overworld"
+		smallImageKey = ["magitech"]
+		smallImageText = "%mods% mods installed"
+
+		[[dimension_overrides.dimensions.buttons]]
+			label = "Join our Discord!"
+			url = "https://discord.gg/M4HQTQ9g9f"
+
+		[[dimension_overrides.dimensions.buttons]]
+			label = "Download on Curse!"
+			url = "https://www.curseforge.com/minecraft/modpacks/project-wakerife"
+
+
+	[[dimension_overrides.dimensions]]
+		name = "the_nether"
+		description = "%player% is in The Nether"
+		state = ""
+		largeImageKey = ["nether"]
+		largeImageText = "In the Nether"
+		smallImageKey = ["magitech"]
+		smallImageText = "%mods% mods installed"
+
+		[[dimension_overrides.dimensions.buttons]]
+			label = "Join our Discord!"
+			url = "https://discord.gg/M4HQTQ9g9f"
+
+		[[dimension_overrides.dimensions.buttons]]
+			label = "Download on Curse!"
+			url = "https://www.curseforge.com/minecraft/modpacks/project-wakerife"
+
+
+	[[dimension_overrides.dimensions]]
+		name = "the_end"
+		description = "%player% is in The End"
+		state = ""
+		largeImageKey = ["end"]
+		largeImageText = "In the End"
+		smallImageKey = ["magitech"]
+		smallImageText = "%mods% mods installed"
+
+		[[dimension_overrides.dimensions.buttons]]
+			label = "Join our Discord!"
+			url = "https://discord.gg/M4HQTQ9g9f"
+
+		[[dimension_overrides.dimensions.buttons]]
+			label = "Download on Curse!"
+			url = "https://www.curseforge.com/minecraft/modpacks/project-wakerife"
+
+
+

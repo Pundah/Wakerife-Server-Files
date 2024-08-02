@@ -1,0 +1,36 @@
+{
+	id: "04285B94275AB879"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{ item: { components: { "ftbquests:missing_item": "powah:energizing_rod_starter" }, count: 1, id: "ftbquests:missing_item" }, weight: 25.0f }
+		{ item: { components: { "ftbquests:missing_item": "powah:energizing_rod_basic" }, count: 1, id: "ftbquests:missing_item" }, weight: 25.0f }
+		{ item: { components: { "ftbquests:missing_item": "powah:energizing_rod_hardened" }, count: 1, id: "ftbquests:missing_item" }, weight: 5.0f }
+		{ item: { components: { "ftbquests:missing_item": "powah:energizing_rod_blazing" }, count: 1, id: "ftbquests:missing_item" } }
+		{ item: { components: { "ftbquests:missing_item": "powah:energy_cable_starter" }, count: 1, id: "ftbquests:missing_item" }, weight: 25.0f }
+		{
+			item: {
+				components: {
+					"ftbquests:missing_item": "powah:energy_cable_basic"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 2
+			weight: 25.0f
+		}
+		{
+			item: {
+				components: {
+					"ftbquests:missing_item": "powah:energy_cable_hardened"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 2
+			weight: 5.0f
+		}
+		{ item: { components: { "ftbquests:missing_item": "powah:energy_cable_blazing" }, count: 1, id: "ftbquests:missing_item" }, random_bonus: 2 }
+	]
+	use_title: true
+}

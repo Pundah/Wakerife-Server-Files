@@ -1,0 +1,58 @@
+{
+	id: "13DF975BE0A23373"
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{
+			item: {
+				components: {
+					"ftbquests:missing_item": "powah:capacitor_nitro"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 1
+			weight: 10.0f
+		}
+		{
+			item: {
+				components: {
+					"ftbquests:missing_item": "powah:crystal_nitro"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 3
+			weight: 25.0f
+		}
+		{
+			item: {
+				components: {
+					"ftbquests:missing_item": "powah:crystal_spirited"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 2
+			weight: 25.0f
+		}
+		{ item: { components: { "ftbquests:missing_item": "powah:spirited_crystal_block" }, count: 1, id: "ftbquests:missing_item" }, weight: 2.0f }
+		{ item: { components: { "ftbquests:missing_item": "powah:energizing_rod_nitro" }, count: 1, id: "ftbquests:missing_item" }, weight: 5.0f }
+		{ item: { components: { "ftbquests:missing_item": "powah:energizing_rod_spirited" }, count: 1, id: "ftbquests:missing_item" }, weight: 5.0f }
+		{
+			count: 2
+			item: {
+				components: {
+					"ftbquests:missing_item": "powah:energy_cable_nitro"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 2
+			weight: 10.0f
+		}
+		{ item: { components: { "ftbquests:missing_item": "powah:nitro_crystal_block" }, count: 1, id: "ftbquests:missing_item" } }
+		{ item: { components: { "ftbquests:missing_item": "powah:solar_panel_nitro" }, count: 1, id: "ftbquests:missing_item" } }
+	]
+	use_title: true
+}

@@ -1,0 +1,91 @@
+{
+	id: "4B19C9059B3AA9AC"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{
+			count: 2
+			item: {
+				components: {
+					"ftbquests:missing_item": "powah:capacitor_basic_tiny"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 2
+			weight: 25.0f
+		}
+		{
+			item: {
+				components: {
+					"ftbquests:missing_item": "powah:capacitor_basic"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 2
+			weight: 25.0f
+		}
+		{ item: { components: { "ftbquests:missing_item": "powah:capacitor_basic_large" }, count: 1, id: "ftbquests:missing_item" }, weight: 25.0f }
+		{
+			item: {
+				components: {
+					"ftbquests:missing_item": "powah:dielectric_casing"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 1
+			weight: 10.0f
+		}
+		{
+			count: 4
+			item: {
+				components: {
+					"ftbquests:missing_item": "powah:energy_cable_starter"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 4
+			weight: 10.0f
+		}
+		{
+			count: 4
+			item: {
+				components: {
+					"ftbquests:missing_item": "powah:energy_cable_basic"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 4
+			weight: 10.0f
+		}
+		{
+			item: {
+				components: {
+					"ftbquests:missing_item": "powah:energizing_rod_starter"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 1
+			weight: 5.0f
+		}
+		{
+			item: {
+				components: {
+					"ftbquests:missing_item": "powah:energizing_rod_basic"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 1
+			weight: 5.0f
+		}
+		{ item: { components: { "ftbquests:missing_item": "powah:solar_panel_starter" }, count: 1, id: "ftbquests:missing_item" } }
+		{ item: { components: { "ftbquests:missing_item": "powah:solar_panel_basic" }, count: 1, id: "ftbquests:missing_item" } }
+	]
+	use_title: true
+}
