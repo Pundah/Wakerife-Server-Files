@@ -12,7 +12,7 @@
 	#Show tips in the Muffler screen?
 	showTip = true
 	#Whether or not use the dark theme
-	useDarkTheme = false
+	useDarkTheme = true
 
 #Inventory button settings
 [inventory_button]

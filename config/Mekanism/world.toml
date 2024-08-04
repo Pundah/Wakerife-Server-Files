@@ -1,7 +1,7 @@
 #World generation settings for Mekanism. This config is synced from server to client
 [world_generation]
 	#Allows chunks to retrogen Mekanism ore blocks.
-	enableRegeneration = false
+	enableRegeneration = true
 	#Change this value to cause Mekanism to regen its ore in all loaded chunks.
 	#Range: > 0
 	userWorldGenVersion = 0

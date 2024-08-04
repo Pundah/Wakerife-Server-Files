@@ -13,7 +13,7 @@ noSolicitingChunkRangeCarpet = 6
 hoePlantingEnabled = true
 #Additional height for sugar cane and cactus when growing on snad
 #Range: > 0
-additionalGrowthHeight = 3
+additionalGrowthHeight = 6
 #How many extra growth ticks to apply when on snad
 #Range: > 0
 additionalGrowthTicks = 5

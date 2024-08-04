@@ -22,13 +22,13 @@
 		#The spawn chance for loot chests in dark temples, set to zero to completely disable.
 		darkTempleChestChance = 0.15
 		#Spawn extra silverfish blocks in all biomes.
-		extraSilverfish = false
+		extraSilverfish = trus
 
 	[core.general]
 		#If an anonymous mod startup analytics request may be sent to our analytics service.
-		analytics = true
+		analytics = false
 		#If the version checker should be enabled.
-		versionChecker = true
+		versionChecker = false
 
 	[block.blood_stain]
 		#The amount of blood per HP (2HP = 1 heart) of the max mob health that will be added to this blockState when a mob dies from fall damage.
@@ -100,7 +100,7 @@
 		#If the fluid should be rendered statically. Fluids won't be shown fluently, but more efficiently.
 		staticBlockRendering = false
 		#If creative versions for all fluids should be added to the creative tab.
-		creativeTabFluids = true
+		creativeTabFluids = false
 
 	[machine.spirit_reanimator]
 		#The required amount of ticks for each reanimation.
@@ -173,8 +173,6 @@
 		guiOverlayPosition = 1
 		#The blood usage in mB per tick.
 		bloodUsage = 1
-		#If the broom should spawn in loot chests.
-		lootChests = true
 		#Show broom part tooltips on source items.
 		broomPartTooltips = true
 		#The X offset for the broom gui overlay.

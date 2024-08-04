@@ -26,9 +26,9 @@
 
 	[core.general]
 		#If an anonymous mod startup analytics request may be sent to our analytics service.
-		analytics = false
+		analytics = true
 		#If the version checker should be enabled.
-		versionChecker = false
+		versionChecker = true
 
 	[block.blood_stain]
 		#The amount of blood per HP (2HP = 1 heart) of the max mob health that will be added to this blockState when a mob dies from fall damage.

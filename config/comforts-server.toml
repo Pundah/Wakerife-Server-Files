@@ -29,7 +29,7 @@ hammocksStopPhantoms = true
 sleepingBagsStopPhantoms = true
 #The percentage chance that a sleeping bag will break upon use.
 #Range: 0 ~ 100
-sleepingBagBreakChance = 0
+sleepingBagBreakChance = 10
 #The value that will be multiplied by a player's luck then added to sleepingBagBreakChance.
 #Range: -1.0 ~ 1.0
 sleepingBagBreakChanceLuckMultiplier = 0.0

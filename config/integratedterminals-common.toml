@@ -50,7 +50,7 @@
 		#If an anonymous mod startup analytics request may be sent to our analytics service.
 		analytics = false
 		#If the crafting planners can work on separate thread.
-		craftingPlannerEnableMultithreading = false
+		craftingPlannerEnableMultithreading = true
 		#The maximum number of terminal storage crafting recipes that can be sent in a single packet. Reduce this when you have packet overflows.
 		terminalStoragePacketMaxRecipes = 128
 		#The number of threads that the crafting plan calculator can use.

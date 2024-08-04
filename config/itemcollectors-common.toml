@@ -1,7 +1,7 @@
 [General]
     # What should be the maximum range of the basic item collector?
     # Allowed range: 1 ~ 10 - Default: 5
-    basicCollectorMaxRange = 5
+    basicCollectorMaxRange = 7
 
     # Should the basic item collector have a filter?
     # Allowed values: true, false - Default: false
@@ -9,7 +9,7 @@
 
     # What should be the maximum range of the advanced item collector?
     # Allowed range: 1 ~ 10 - Default: 7
-    advancedCollectorMaxRange = 7
+    advancedCollectorMaxRange = 10
 
     # Should the advanced item collector have a filter?
     # Allowed values: true, false - Default: true

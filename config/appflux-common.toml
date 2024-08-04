@@ -12,4 +12,4 @@
 
 [misc]
 	#Allow ME Import Bus to import energy like items/fluids.
-	enable = false
+	enable = true

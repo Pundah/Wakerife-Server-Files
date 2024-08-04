@@ -7,11 +7,11 @@
 #Placement settings
 [Placement]
 	#Only allow placing Iron Bushes in darkness [Default: true]
-	darknessOnlyIronBush = true
+	darknessOnlyIronBush = false
 	#Only allow placing Gold Bushes in darkness [Default: true]
 	darknessOnlyGoldBush = true
 	#Only allow placing Copper Bushes in darkness [Default: true]
-	darknessOnlyCopperBush = true
+	darknessOnlyCopperBush = false
 	#Only allow placing Tin Bushes in darkness [Default: true]
 	darknessOnlyTinBush = true
 	#Only allow placing Aluminum Bushes in darkness [Default: true]
@@ -29,43 +29,43 @@
 	#Only allow placing Silver Bushes in darkness [Default: true]
 	darknessOnlySilverBush = true
 	#Only allow placing Essence Bushes in darkness [Default: true]
-	darknessOnlyEssenceBush = true
+	darknessOnlyEssenceBush = false
 
 #Density settings
 [Density]
 	#Iron Bush Density [Default: 1]
 	#Range: 1 ~ 32
-	ironBushDensity = 1
+	ironBushDensity = 8
 	#Gold Bush Density [Default: 1]
 	#Range: 1 ~ 32
-	goldBushDensity = 1
+	goldBushDensity = 4
 	#Copper Bush Density [Default: 2]
 	#Range: 1 ~ 32
-	copperBushDensity = 2
+	copperBushDensity = 6
 	#Tin Bush Density [Default: 2]
 	#Range: 1 ~ 32
-	tinBushDensity = 2
+	tinBushDensity = 5
 	#Aluminum Bush Density [Default: 2]
 	#Range: 1 ~ 32
-	aluminumBushDensity = 2
+	aluminumBushDensity = 6
 	#Lead Bush Density [Default: 1]
 	#Range: 1 ~ 32
-	leadBushDensity = 1
+	leadBushDensity = 2
 	#Nickel Bush Density [Default: 1]
 	#Range: 1 ~ 32
-	nickelBushDensity = 1
+	nickelBushDensity = 3
 	#Uranium Bush Density [Default: 1]
 	#Range: 1 ~ 32
-	uraniumBushDensity = 1
+	uraniumBushDensity = 2
 	#Osmium Bush Density [Default: 1]
 	#Range: 1 ~ 32
-	osmiumBushDensity = 1
+	osmiumBushDensity = 4
 	#Zinc Bush Density [Default: 2]
 	#Range: 1 ~ 32
-	zincBushDensity = 2
+	zincBushDensity = 3
 	#Silver Bush Density [Default: 1]
 	#Range: 1 ~ 32
-	silverBushDensity = 1
+	silverBushDensity = 2
 	#Essence Bush Density [Default: 2]
 	#Range: 1 ~ 32
-	essenceBushDensity = 2
+	essenceBushDensity = 4

@@ -6,7 +6,7 @@
 	tinyTntBlockDamage = true
 	#Changes the channel capacity that cables provide in AE2.
 	#Allowed Values: INFINITE, DEFAULT, X2, X3, X4
-	channels = "DEFAULT"
+	channels = "INFINITE"
 	#The number of pathfinding steps that are taken per tick and per grid that is booting. Lower numbers will mean booting takes longer, but less work is done per tick.
 	#Range: 1 ~ 1024
 	pathfindingStepsPerTick = 4
@@ -24,8 +24,6 @@
 [craftingCPU]
 	#Range: > -2147483648
 	craftingCalculationTimePerTick = 5
-	#When true: simulate extraction of all the network's contents when starting a crafting job calculation. When false: use the cached available content list (same as terminals). Enabling might work a bit better, but it will significantly reduce performance.
-	craftingSimulatedExtraction = false
 
 [crafting]
 	#Enable shift-clicking with the crafting units in hand to disassemble them.

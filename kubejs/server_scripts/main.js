@@ -1,3 +1,2 @@
-// Visit the wiki for more info - https://kubejs.com/
-console.info('Hello, World! (Loaded server example script)')
-
+console.info('Welcome to Project Wakerife by Pundah')
+console.info('Hello, World! Server Started!')
