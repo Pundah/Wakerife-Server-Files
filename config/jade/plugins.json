@@ -109,6 +109,10 @@
     "tank_component": true,
     "extractor_component": true
   },
+  "tesseract": {
+    "tesseract": true,
+    "remove_default": true
+  },
   "hammerlib": {
     "root": true
   },
@@ -123,6 +127,9 @@
     "villager": true,
     "converter": true,
     "breeder": true
+  },
+  "mysticalagradditions": {
+    "infused_farmland": true
   },
   "pipez": {
     "pipe": true
