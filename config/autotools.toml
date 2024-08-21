@@ -1,21 +1,21 @@
 [AutoTools]
 	#AutoTools will always be active and try to get you the best tool. Can be toggled with the set key.
-	toggle = false
+	toggle = true
 	#Disables AutoTools in creative if toggle is enabled
 	disableCreative = true
 	#Keeps the selected slot when swapping to a new tool instead of using the vanilla mechanics
-	keepSlot = false
+	keepSlot = true
 	#utoTools will prefer the tool already in your hotbar if multiple tools have the same mining speed, regardless their durability
 	preferHotBarTool = true
 	#AutoTools will prefer the tool with the lower durability, instead of the higher one, if they have the same mining speed
-	preferLowDurability = false
+	preferLowDurability = true
 	#Autotools will try to always get a tool with Fortune for gravel and leaves
-	alwaysPreferFortune = false
+	alwaysPreferFortune = true
 	# 
 	#AutoTools only tries to get a new tool if it is needed to break the block
 	onlySwitchIfNecessary = false
 	#AutoTools will switch back to you previous tool or item you had in your hand before breaking the block
-	switchBack = false
+	switchBack = true
 	#Displays the weapons Dps when hovering over it.
 	showDPS = true
 	#AutoTools won't change to a better weapon(e.g. a sword) when holding an axe
