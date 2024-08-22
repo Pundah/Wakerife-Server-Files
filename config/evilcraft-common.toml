@@ -1,3 +1,7 @@
+	[general.weather_container]
+		#If shapeless crafting of the higher tiers of weather containers should be enabled.
+		shapelessRecipes = true
+
 	[general.general]
 		#If the blood gui overlay should be rendered.
 		bloodGuiOverlay = true
@@ -14,21 +18,11 @@
 		#The Y offset for the blood gui overlay.
 		bloodGuiOverlayPositionOffsetY = -5
 
-	[general.weather_container]
-		#If shapeless crafting of the higher tiers of weather containers should be enabled.
-		shapelessRecipes = true
-
 	[worldgeneration.general]
 		#The spawn chance for loot chests in dark temples, set to zero to completely disable.
 		darkTempleChestChance = 0.15
 		#Spawn extra silverfish blocks in all biomes.
 		extraSilverfish = false
-
-	[core.general]
-		#If an anonymous mod startup analytics request may be sent to our analytics service.
-		analytics = true
-		#If the version checker should be enabled.
-		versionChecker = true
 
 	[block.blood_stain]
 		#The amount of blood per HP (2HP = 1 heart) of the max mob health that will be added to this blockState when a mob dies from fall damage.
@@ -94,14 +88,6 @@
 		#Custom player drops. Maps player UUID to an itemstack. Expects the format domain:itemname:amount:meta for items where amount and meta are optional.
 		playerDrops = ["93b459be-ce4f-4700-b457-c1aa91b3b687|minecraft:stone_slab"]
 
-	[machine.dark_tank]
-		#The maximum tank size visible in the creative tabs. (Make sure that you do not cross the max int size.)
-		maxTankCreativeSize = 4096000
-		#If the fluid should be rendered statically. Fluids won't be shown fluently, but more efficiently.
-		staticBlockRendering = false
-		#If creative versions for all fluids should be added to the creative tab.
-		creativeTabFluids = true
-
 	[machine.spirit_reanimator]
 		#The required amount of ticks for each reanimation.
 		requiredTicks = 500
@@ -129,6 +115,14 @@
 	[machine.blood_infuser]
 		#Priority list of mod id's when determining tag-based recipe outputs.
 		recipeTagOutputModPriorities = []
+
+	[machine.dark_tank]
+		#The maximum tank size visible in the creative tabs. (Make sure that you do not cross the max int size.)
+		maxTankCreativeSize = 4096000
+		#If the fluid should be rendered statically. Fluids won't be shown fluently, but more efficiently.
+		staticBlockRendering = false
+		#If creative versions for all fluids should be added to the creative tab.
+		creativeTabFluids = true
 
 	[item.dark_tank]
 		#If held buckets should be autofilled when enabled.
@@ -183,22 +177,6 @@
 		bloodUsageBlockBreak = 1
 		#Show broom modifier tooltips on source items.
 		broomModifierTooltips = false
-
-	[item.kineticator]
-		#The amount of ticks inbetween each area checking for items.
-		tickHoldoff = 1
-		#If the Kineticator should also attract XP orbs.
-		moveXP = true
-		#The amount of ticks in between each blood consumption when there are valid items in the area.
-		consumeHoldoff = 20
-
-	[item.kineticator_repelling]
-		#The amount of ticks in between each blood consumption when there are valid items in the area.
-		consumeHoldoff = 20
-		#If the Kineticator should also attract XP orbs.
-		moveXP = true
-		#The amount of ticks inbetween each area checking for items.
-		tickHoldoff = 1
 
 	[item.vengeance_ring]
 		#The area of effect in # blocks of this ring.
@@ -274,6 +252,22 @@
 		#If creative versions for all variants should be added to the creative tab.
 		creativeTabVariants = true
 
+	[item.kineticator]
+		#The amount of ticks inbetween each area checking for items.
+		tickHoldoff = 1
+		#If the Kineticator should also attract XP orbs.
+		moveXP = true
+		#The amount of ticks in between each blood consumption when there are valid items in the area.
+		consumeHoldoff = 20
+
+	[item.kineticator_repelling]
+		#The amount of ticks in between each blood consumption when there are valid items in the area.
+		consumeHoldoff = 20
+		#If the Kineticator should also attract XP orbs.
+		moveXP = true
+		#The amount of ticks inbetween each area checking for items.
+		tickHoldoff = 1
+
 	[mob.kineticator]
 		#The blacklisted items which should not be influenced by the Kineticator, by unique item/blockState name.
 		kineticateBlacklist = ["appliedenergistics2:item.ItemCrystalSeed"]
@@ -309,3 +303,9 @@
 	[entity.attack_vengeance_beam]
 		#If crossed beams should cause explosions.
 		crossBeamsExplosions = true
+
+	[core.general]
+		#If an anonymous mod startup analytics request may be sent to our analytics service.
+		analytics = true
+		#If the version checker should be enabled.
+		versionChecker = true
