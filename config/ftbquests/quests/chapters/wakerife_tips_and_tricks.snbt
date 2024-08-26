@@ -1,4 +1,5 @@
 {
+	autofocus_id: "0C856BBB1679A7DD"
 	default_hide_dependency_lines: false
 	default_quest_shape: "diamond"
 	filename: "wakerife_tips_and_tricks"
@@ -7,6 +8,14 @@
 		id: "waystones:warp_scroll"
 	}
 	id: "1BE666F01EFFC00D"
+	images: [{
+		height: 4.0d
+		image: "wakerife:textures/quest/wakerife-tips-n-tricks.png"
+		rotation: 0.0d
+		width: 12.8d
+		x: 1.0d
+		y: 0.0d
+	}]
 	order_index: 2
 	progression_mode: "flexible"
 	quest_links: [ ]

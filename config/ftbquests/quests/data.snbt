@@ -8,14 +8,14 @@
 	disable_gui: false
 	drop_loot_crates: false
 	emergency_items_cooldown: 300
-	grid_scale: 0.5d
+	grid_scale: 0.25d
 	lock_message: ""
 	loot_crate_no_drop: {
 		boss: 0
 		monster: 600
 		passive: 4000
 	}
-	pause_game: false
+	pause_game: true
 	progression_mode: "flexible"
 	version: 13
 }

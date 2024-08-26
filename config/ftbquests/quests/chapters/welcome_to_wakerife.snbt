@@ -13,19 +13,19 @@
 	images: [
 		{
 			click: "https://discord.gg/M4HQTQ9g9f"
-			height: 1.0d
+			height: 3.0d
 			hover: ["Join the Discord!"]
 			image: "minecraft:textures/particle/sonic_boom_9.png"
 			rotation: 0.0d
-			width: 1.0d
+			width: 3.0d
 			x: 0.0d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			height: 6.0d
-			image: "wakerife:textures/wakerifebg.png"
+			image: "wakerife:textures/quest/project-wakerife.png"
 			rotation: 0.0d
-			width: 22.991999999999997d
+			width: 14.985365853658536d
 			x: 0.0d
 			y: -5.0d
 		}

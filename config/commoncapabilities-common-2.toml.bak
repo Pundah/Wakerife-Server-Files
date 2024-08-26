@@ -1,13 +1,13 @@
+	[machine.general]
+		#The data component types that should be filtered away when checking equality.
+		ignoreDataComponentsForEqualityFilters = ["integrateddynamics:energy"]
+
 	[core.general]
 		#If mod compatibility loader should crash hard if errors occur in that process.
 		crashOnModCompatCrash = false
 		#If the recipe loader should crash when finding invalid recipes.
 		crashOnInvalidRecipe = false
 		#If an anonymous mod startup analytics request may be sent to our analytics service.
-		analytics = false
+		analytics = true
 		#If the version checker should be enabled.
-		versionChecker = false
-
-	[machine.general]
-		#The data component types that should be filtered away when checking equality.
-		ignoreDataComponentsForEqualityFilters = ["integrateddynamics:energy"]
+		versionChecker = true

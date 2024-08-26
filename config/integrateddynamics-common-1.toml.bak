@@ -1,0 +1,25 @@
+[machine]
+	#The distance from which part offsets should be shown.
+	general = 16
+	#If cable shapes should be determined dynamically. Disable this if FPS issues would occur.
+	cable = true
+	#If invisible light should act as full a block
+	invisible_light = true
+	#The maximum capacity visible in the creative tabs. (Make sure that you do not cross the max int size)
+	energy_battery = 40960000
+	#The maximum value history length that can be maintained..
+	delay = 1024
+	#How many mB per tick can be auto-ejected.
+	mechanical_squeezer = 500
+	#The energy consumption rate.
+	mechanical_drying_basin = 80
+
+[worldgeneration]
+	#The 1/x chance at which Menril Wood will be filled with Menril Resin when generated, the higher this value, the lower the chance.
+	menril_log_filled = 10
+
+[item]
+	#If the berries should give the night vision effect when eaten.
+	menril_berries = true
+	#If the info book should automatically obtained when the player first spawns.
+	on_the_dynamics_of_integration = true

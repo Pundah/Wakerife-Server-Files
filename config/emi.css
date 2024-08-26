@@ -19,7 +19,7 @@
 	/**
 	 * Where EMI should pull stacks from to populate the index.
 	 */
-	index-source: creative;
+	index-source: creative-plus-registered;
 
 	/**
 	 * Whether normal search queries should include the tooltip.
@@ -29,12 +29,12 @@
 	/**
 	 * Whether normal search queries should include the mod name.
 	 */
-	search-mod-name-by-default: false;
+	search-mod-name-by-default: true;
 
 	/**
 	 * Whether normal search queries should include the stack's tags.
 	 */
-	search-tags-by-default: false;
+	search-tags-by-default: true;
 }
 
 #ui {

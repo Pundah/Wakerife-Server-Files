@@ -1,0 +1,13 @@
+{
+	id: "46FEC48A716D6BA6"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ item: { count: 1, id: "mysticalagriculture:nether_star_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:dragon_egg_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:nitro_crystal_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:gaia_spirit_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:awakened_draconium_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:neutronium_seeds" } }
+	]
+}

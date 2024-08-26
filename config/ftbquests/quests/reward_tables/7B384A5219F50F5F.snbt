@@ -1,0 +1,45 @@
+{
+	id: "7B384A5219F50F5F"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ item: { count: 1, id: "mysticalagriculture:blaze_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:enderman_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:ghast_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:experience_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:fluorite_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:nickel_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:lapis_lazuli_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:uranium_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:osmium_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:breeze_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:steel_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:constantan_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:electrum_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:invar_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:ruby_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:sapphire_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:peridot_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:soulium_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:refined_glowstone_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:refined_obsidian_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:fluix_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:energized_steel_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:blazing_crystal_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:signalum_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:lumium_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:flux_infused_ingot_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:hop_graphite_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:cobalt_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:rose_gold_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:soularium_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:dark_steel_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:pulsating_alloy_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:energetic_alloy_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:elementium_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:knightmetal_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:fiery_ingot_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:starmetal_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:compressed_iron_seeds" } }
+	]
+}

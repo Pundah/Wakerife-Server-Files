@@ -1,0 +1,28 @@
+{
+	id: "40C801F59C163CB0"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ item: { count: 1, id: "mysticalagriculture:diamond_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:emerald_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:uraninite_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:platinum_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:netherite_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:wither_skeleton_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:iridium_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:yellorium_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:cyanite_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:niotic_crystal_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:spirited_crystal_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:enderium_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:flux_infused_gem_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:manyullyn_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:queens_slime_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:hepatizon_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:vibrant_alloy_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:end_steel_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:terrasteel_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:rock_crystal_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:draconium_seeds" } }
+	]
+}

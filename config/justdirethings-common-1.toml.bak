@@ -180,3 +180,8 @@
 	#The Forge Energy cost to fire the Portal Gun (V2) projectile
 	#Range: > 1
 	portal_gun_v2_rf_cost = 5000
+
+#Goo settings
+[goo]
+	#Can goo randomly die, needing to be revived by right clicking with an item?
+	goo_can_die = true

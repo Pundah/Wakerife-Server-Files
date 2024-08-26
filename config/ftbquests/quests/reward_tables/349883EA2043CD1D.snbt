@@ -1,0 +1,13 @@
+{
+	id: "349883EA2043CD1D"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ item: { count: 1, id: "mysticalagriculture:inferium_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:stone_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:dirt_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:wood_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:ice_seeds" } }
+		{ item: { count: 1, id: "mysticalagriculture:deepslate_seeds" } }
+	]
+}

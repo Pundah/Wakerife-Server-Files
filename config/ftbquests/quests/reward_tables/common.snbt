@@ -4,7 +4,7 @@
 	}
 	id: "06C4634E81851A6C"
 	loot_size: 1
-	order_index: 3
+	order_index: 0
 	rewards: [
 		{ item: { count: 1, id: "minecraft:fox_spawn_egg" }, weight: 5.0f }
 		{ item: { count: 1, id: "functionalstorage:copper_upgrade" }, weight: 5.0f }
