@@ -1,3 +1,0 @@
-[machine]
-	#The data component types that should be filtered away when checking equality.
-	general = ["integrateddynamics:energy"]

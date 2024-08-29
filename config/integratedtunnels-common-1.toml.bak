@@ -1,3 +1,0 @@
-[general]
-	#The base energy usage for the player simulator when it does not have a variable.
-	general = 1

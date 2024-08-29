@@ -196,7 +196,7 @@
 			# You can override this with FTB Ranks using ftbessentials.home.max
 			# Default: 1
 			# Range: 0 ~ 2147483647
-			max: 1
+			max: 3
 			
 			# Warm-up time before /home command executes (in seconds)
 			# You can override this with FTB Ranks using ftbessentials.home.warmup
@@ -218,7 +218,7 @@
 			# You can override this with FTB Ranks using ftbessentials.rtp.cooldown
 			# Default: 600
 			# Range: 0 ~ 604800
-			cooldown: 600
+			cooldown: 300
 			
 			# Blacklisted dimension ID's for /rtp (player *must not* be in any of these dimensions)
 			# Wildcarded dimensions (e.g. 'somemod:*') are supported

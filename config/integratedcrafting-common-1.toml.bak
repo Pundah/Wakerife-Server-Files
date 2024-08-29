@@ -1,3 +1,0 @@
-[machine]
-	#Enabling this option will log all recipe validation failures in crafting interfaces into the server logs
-	general = true

@@ -1,3 +1,0 @@
-[biome]
-	#The weight of spawning in the overworld, 0 disables spawning.
-	general = 5

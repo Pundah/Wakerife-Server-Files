@@ -74,7 +74,7 @@
 		#The minimum number of integer digits to include in the result of the compact operator
 		numberCompactMinimumIntegerDigits = 1
 		#If an anonymous mod startup analytics request may be sent to our analytics service.
-		analytics = true
+		analytics = false
 		#The minimum number of fractional digits to include in the result of the compact operator
 		numberCompactMinimumFractionDigits = 0
 		#The number of threads that the ingredient network observer can use.
@@ -106,7 +106,7 @@
 		#How deep the recursion stack on an operator can become. This is to avoid game crashes when building things like the omega operator.
 		operatorRecursionLimit = 256
 		#If the version checker should be enabled.
-		versionChecker = true
+		versionChecker = false
 
 	[general.general]
 		#The energy usage multiplier for networks.

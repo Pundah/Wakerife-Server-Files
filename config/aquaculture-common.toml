@@ -1,5 +1,5 @@
 ["basic options"]
-	"Enable weight for fish? Useful for fishing competitions" = false
+	"Enable weight for fish? Useful for fishing competitions" = true
 	"Enable debug mode? (Enables additional logging)" = false
 	"Show Fillet recipes in JEI?" = true
 	#Range: -63 ~ 0
