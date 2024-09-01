@@ -1,0 +1,22 @@
+{
+  "neptuniumBurnTime": {
+    "value": 16000,
+    "description": "Burn time for neptunium ingot in Radioactive Generator"
+  },
+  "customSky": {
+    "value": true,
+    "description": "Render custom sky on planet"
+  },
+  "plutoniumBurnTime": {
+    "value": 12000,
+    "description": "Burn time for plutonium ingot in Radioactive Generator"
+  },
+  "uraniumBurnTime": {
+    "value": 8000,
+    "description": "Burn time for uranium ingot in Radioactive Generator"
+  },
+  "planetScreenGravityColor": {
+    "value": "White",
+    "description": "Yeah"
+  }
+}
