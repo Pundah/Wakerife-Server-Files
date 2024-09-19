@@ -30,6 +30,8 @@ weather_particle_thunder_count = 7875
 	rain_color_blending_frequency = 4
 	#There is a calculation done at the start of a rain droplet that determines if the particle should render. This trades memory for performance. At the moment, neither option is known which is better by default.
 	use_cached_aabb = true
+	#Note, this is provided purely as an option and is HIGHLY likely not to change any noticeable performance.
+	full_biome_lookup = true
 
 [Snow]
 	#The opacity of the rain particle. (1 is fully opaque)

@@ -1,0 +1,65 @@
+#Dimensional Quarry Settings
+[dimensional_quarry]
+
+	#Energy Consumption
+	[dimensional_quarry.consumption]
+		#How much FE/t the dimensional quarry uses
+		#Range: > 0
+		base = 40000
+		#Range: 0.0 ~ 1.7976931348623157E308
+		unbreaking_I = 0.85
+		#Range: 0.0 ~ 1.7976931348623157E308
+		unbreaking_II = 0.7
+		#Range: 0.0 ~ 1.7976931348623157E308
+		unbreaking_III = 0.5
+		#Range: 1.0 ~ 1.7976931348623157E308
+		efficiency_I = 1.2
+		#Range: 1.0 ~ 1.7976931348623157E308
+		efficiency_II = 1.525
+		#Range: 1.0 ~ 1.7976931348623157E308
+		efficiency_III = 1.85
+		#Range: 1.0 ~ 1.7976931348623157E308
+		efficiency_IV = 2.175
+		#Range: 1.0 ~ 1.7976931348623157E308
+		efficiency_V = 2.5
+		#Range: 1.0 ~ 1.7976931348623157E308
+		silk_touch = 1.5
+		#Range: 1.0 ~ 1.7976931348623157E308
+		fortune_I = 1.2
+		#Range: 1.0 ~ 1.7976931348623157E308
+		fortune_II = 1.35
+		#Range: 1.0 ~ 1.7976931348623157E308
+		fortune_III = 1.5
+
+	#Quarry speed (Tick/Block)
+	[dimensional_quarry.speed]
+		#How many ticks between each block mined
+		#Range: > 1
+		base = 10
+		#Range: > 1
+		efficiency_I = 8
+		#Range: > 1
+		efficiency_II = 6
+		#Range: > 1
+		efficiency_III = 4
+		#Range: > 1
+		efficiency_IV = 2
+		#Range: > 1
+		efficiency_V = 1
+
+#Sponge On a Stick Settings
+[sponge_on_a_stick]
+	#Energy capacity
+	#Range: > 1
+	capacity = 10000
+	#Energy usage per use
+	#Range: > 0
+	usage = 500
+
+#Spike Settings
+[spike]
+	#Damage per hit
+	#Range: 0.0 ~ 1.7976931348623157E308
+	damage = 3.0
+	#Should killed entities drop xp
+	drop_xp = true

@@ -17,3 +17,5 @@ loadRuntimeGeneratedResources = true
 removeIndustrialistTrades = false
 maxDistillationTowerHeight = 9
 enableInterMachineConnectedTextures = true
+armorHudYPosition = 4
+baseItemPipeTransfer = 16
